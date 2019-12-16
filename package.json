@@ -1,0 +1,26 @@
+{
+  "name": "@netdata/netdata-sdk",
+  "version": "0.1.0",
+  "description": "Netdata Api SDK",
+  "main": "./src/index.ts",
+  "files": [
+    "/lib"
+  ],
+  "scripts": {
+    "clean": "./node_modules/rimraf/bin.js ./lib",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ts-bundle": "npm run clean && tsc"
+  },
+  "author": "Netdata frontend team",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:netdata/netdata-sdk.git"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@netdata/eslint-config-netdata": "^0.1.1",
+    "prettier": "^1.19.1",
+    "rimraf": "^3.0.0",
+    "typescript": "^3.7.3"
+  }
+}
