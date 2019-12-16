@@ -1,1 +1,1 @@
-console.log("init") // eslint-disable-line
+export { fetchMetricsStream } from "./metrics-stream"
