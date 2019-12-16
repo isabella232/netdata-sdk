@@ -1,0 +1,7 @@
+.DS_Store
+.vscode/
+.idea
+.jest-test-results.json
+node_modules
+public
+lib
